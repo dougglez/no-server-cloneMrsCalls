@@ -1,0 +1,16 @@
+<!-- <div class="prod-pics" ng-repeat="prod in getAllProducts">
+<img src={{prod.img}} alt={{prod.name}} class={{prod.class}} />{{prod.name}}
+</div> -->
+
+{{title}}
+
+
+<div class="col-md-12">
+  <div class="control-group" ng-repeat="prod in getAllProducts | filter: {name: searched}">
+    <div class="col-md-4 prod-pics">
+      <img src={{prod.img}} alt={{prod.name}} class={{prod.class}} ng-click= "push-cart"/>{{prod.name}}
+      <br>
+
+    </div>
+  </div>
+</div>

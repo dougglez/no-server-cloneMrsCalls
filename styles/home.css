@@ -1,0 +1,296 @@
+
+
+section div {
+  height: 450px;
+
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  clear: both;
+}
+
+.home-wrapper {
+  position: relative;
+}
+
+
+.top-border {
+  height: 45px;
+  background-color: #442560;
+  color: white;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+
+
+.featured-products {
+  display: flex;
+  position: relative;
+  margin: auto;
+
+}
+
+.column1 {
+  position: absolute;
+  padding-left: 5%;
+  top: -15%;
+  display: inline-block;
+}
+.column2 {
+  position: absolute;
+  display: inline-block;
+  padding-left: 45%;
+  top: -15%;
+}
+.column3 {
+  position: absolute;
+  display: inline-block;
+  padding-left: 80%;
+  top: -15%;
+}
+
+.featProdPic {
+  -ms-transform: scale(.5,.5); /* IE 9 */
+  -webkit-transform: scale(.5,.5); /* Safari */
+  transform: scale(.5,.5);
+
+}
+
+.featured-products-border{
+  marign-top: .3em;
+  height: 2em;
+  background-color: #108d95;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+
+
+/*instagram pics*/
+/*////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+.border-instagram {
+  color: #442560;
+  background-color: white;
+
+}
+
+.instagram {
+  position: relative;
+  height: 500px;
+  width: 90vw;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: .3em solid #442560;
+  margin-bottom: .4em;
+  border-radius: .3em;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.instagram-pic {
+  position: absolute;
+  top: 3.5em;
+  left: 1.3em;
+
+}
+
+
+.inner-left {
+  display: none;
+  position: absolute;
+  top: 3.5em;
+  left: 375px;
+}
+
+.inner-right {
+  display: none;
+  position: absolute;
+  top: 3.5em;
+  right: 375px;
+}
+
+@media only screen and (min-width: 1800px) {
+  .inner-left {
+    display:inline-block;
+  }
+  .inner-right {
+    display:inline-block;
+  }
+}
+
+
+.email-container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 20rem;
+  height: 10em;
+}
+
+.email-words {
+  font: 100px;
+  text-align: center;
+
+}
+
+
+
+h2 {
+  font-size: 32px;
+  color: #442560;
+  margin: auto;
+  font-weight: bold;
+}
+
+.email-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.email-name {
+  margin-top: 1em;
+  margin-bottom: 7px;
+  -moz-border-radius: .2em;
+  -webkit-border-radius: .2em;
+  border-radius: .2em;
+  font-size: 20px;
+  outline: 0;
+  -webkit-appearance: none;
+
+}
+
+.email-input {
+  -moz-border-radius: .2em;
+  -webkit-border-radius: .2em;
+  border-radius: .2em;
+  font-size: 20px;
+  outline: 0;
+  -webkit-appearance: none;
+  margin-bottom: 15px;
+}
+
+.submit-email {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #6b3a97), color-stop(1, #442560));
+	background:-moz-linear-gradient(top, #6b3a97 5%, #442560 100%);
+	background:-webkit-linear-gradient(top, #6b3a97 5%, #442560 100%);
+	background:-o-linear-gradient(top, #6b3a97 5%, #442560 100%);
+	background:-ms-linear-gradient(top, #6b3a97 5%, #442560 100%);
+	background:linear-gradient(to bottom, #6b3a97 5%, #442560 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#6b3a97', endColorstr='#442560',GradientType=0);
+	background-color:#6b3a97;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:19px;
+	padding:4px 10px;
+	text-decoration:none;
+	/*text-shadow:0px 1px 0px #283966;*/
+  outline: none;
+}
+.submit-email:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #442560), color-stop(1, #6b3a97));
+	background:-moz-linear-gradient(top, #442560 5%, #6b3a97 100%);
+	background:-webkit-linear-gradient(top, #442560 5%, #6b3a97 100%);
+	background:-o-linear-gradient(top, #442560 5%, #6b3a97 100%);
+	background:-ms-linear-gradient(top, #442560 5%, #6b3a97 100%);
+	background:linear-gradient(to bottom, #442560 5%, #6b3a97 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#442560', endColorstr='#6b3a97',GradientType=0);
+	background-color:#442560;
+}
+.submit-email:active {
+	position:relative;
+	top:1px;
+  outline: none;
+}
+
+
+.instagram-pic-right {
+  position: absolute;
+  top: 3.5em;
+  right: 1.3em;
+}
+
+
+
+.top-border-quality-guarantee {
+  display: inline-block;
+  position: absolute;
+  margin: auto;
+  left: 18vw;
+
+
+}
+
+.quality-guarantee {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  height: 250px;
+  position: relative;
+}
+
+.quality-statement {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 25rem;
+  position: absolute;
+  top: .5em;
+  left: 9em;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.quality-statement h3 {
+  font-size: 26px;
+  padding-bottom: .5em;
+  color: #108d95;
+
+
+}
+
+.quality-badge {
+  position: absolute;
+  right: 15%;
+  top: -20%;
+}
+
+
+
+.reviews {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+
+}
+
+.review {
+  border: 10px solid #f6f6f6;
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  height: 10em;
+  text-align: center;
+  align-self: center;
+  align-items: center;
+}

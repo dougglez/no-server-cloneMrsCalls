@@ -1,0 +1,172 @@
+@import 'https://fonts.googleapis.com/css?family=ABeeZee';
+* {
+  font-family: 'ABeeZee', sans-serif;
+  color: rgb(157, 153, 170);
+}
+
+.search-cart-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-top: .3em;
+}
+
+.header-search {
+  margin-top: .55em;
+
+}
+.searchbar {
+  -moz-border-radius: 1em;
+  -webkit-border-radius: 1em;
+  border-radius: .5em;
+  /*-moz-box-shadow: 2px 2px 3px #666;*/
+  /*-webkit-box-shadow: 2px 2px 3px #666;*/
+  /*box-shadow: 2px 2px 3px #666;*/
+  font-size: 12px;
+  outline: 0;
+  -webkit-appearance: none;
+
+}
+
+.header-cart {
+  display: flex;
+  flex-direction: row;
+}
+
+.cart-svg {
+  height: 35px;
+  width: 35px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.cart-items {
+  padding-right: 3em;
+  padding-top: 8px;
+}
+
+
+
+.header-wrapper {
+  border-bottom-color: #442560;
+  border-bottom-style: solid;
+  border-bottom-width: 45px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  top: 15px;
+  justify-content: center;
+}
+
+.mrs-calls-logo {
+  margin-top: -50px;
+  padding-right: 100px;
+}
+
+.header-nav {
+  display: none;
+  justify-content: space-around;
+  align-content: center;
+
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  clear: both;
+  padding-top: 20px;
+}
+ .nav-container li {
+   padding-left: 25px;
+   text-decoration: none;
+ }
+
+ .nav-container li:hover {
+   color: #442560;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-footer {
+  color: white;
+  clear: both;
+}
+
+.top-footer {
+  height: 75px;
+  background-color: #108d95;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+
+}
+
+.footer-search {
+  padding-left: .55em;
+  padding-top: 1.6em;
+}
+
+.footer-nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer-nav-container:first-child {
+  padding-left: 1.8em;
+  font-size: 20px;
+  padding-top: 1.3em;
+}
+
+.footer-nav-container li {
+  padding-left: 4.5em;
+}
+
+.footer-cart {
+  position: absolute;
+  right: 0px;
+  display: flex;
+  flex-direction: row;
+  top: 1.2em;
+}
+
+.bottom-footer {
+  height: 45px;
+  background-color: #0E6E75;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /*align-content: center;*/
+  padding-left: 10em;
+  padding-right: 10em;
+  padding-top: .8em;
+
+}
+
+
+/*foobar animations*/
+#holder {
+ position: absolute;
+ top: .55em;
+ left: .5em;
+ color: white;
+}
+
+#dropDiv {
+ /*display: none;*/
+ position: absolute;
+ top: -20px;
+ background: #ccc;
+}

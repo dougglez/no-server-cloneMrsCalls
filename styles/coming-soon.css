@@ -1,0 +1,21 @@
+
+h1 {
+  padding-top: 20px;
+  color: black;
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+p, a {
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.vine {
+  position: absolute;
+  left: 500px;
+  border-radius: 10px;
+  border-color: white;
+  border-width: 10px;
+  border-style: solid;
+}
