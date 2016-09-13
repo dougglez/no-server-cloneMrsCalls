@@ -148,9 +148,11 @@
   /*top: 1.2em;*/
 }
 
-.cart-items {
+.cart-items-footer {
   color: white;
   padding-top: 1.8em;
+  /*position: absolute;*/
+  padding-right: 2em;
 }
 
 .bottom-footer {
@@ -167,7 +169,7 @@
   color: white !important;
 
 }
- 
+
 
 /*foobar animations*/
 #holder {
