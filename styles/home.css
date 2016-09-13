@@ -11,6 +11,10 @@ body {
   clear: both;
 }
 
+.home-head-one {
+  color: white ;
+}
+
 .home-wrapper {
   position: relative;
 }
@@ -240,7 +244,7 @@ h2 {
 
 .quality-guarantee {
   display: flex;
-  justify-content: space-around;
+  /*justify-content: space-between;*/
   align-items: center;
   flex-direction: row;
   height: 250px;
@@ -254,7 +258,7 @@ h2 {
   width: 25rem;
   position: absolute;
   top: .5em;
-  left: 9em;
+  left: 22em;
   font-size: 18px;
   line-height: 150%;
 }
@@ -269,7 +273,7 @@ h2 {
 
 .quality-badge {
   position: absolute;
-  right: 15%;
+  right: 26em;
   top: -20%;
 }
 

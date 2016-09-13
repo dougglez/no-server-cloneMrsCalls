@@ -6,8 +6,10 @@ angular.module('mrsCallsClone').directive('comingSoon', function() {
       return colors[index];
     }
 
+
+
 return {
-  template: '<h1 title>Coming soon!</h1><p>In the meantime, enjoy this article:</p> <a href="https://en.wikipedia.org/wiki/Special:Random" media="screen" title="no title">SURPRISE!!</a><iframe src="https://vine.co/v/Mrn9aiAzmtQ/embed/simple?audio=1" width="600" height="600" frameborder="0" class="vine"></iframe><script src="https://platform.vine.co/static/scripts/embed.js"></script>',
+  template: '<h1 title>Coming soon!</h1><p>In the meantime, enjoy this article:</p> <a href="https://en.wikipedia.org/wiki/Special:Random" media="screen" title="no title">SURPRISE!!</a><iframe src="https://vine.co/v/Mrn9aiAzmtQ/embed/simple?audio=1" width="600" height="600" frameborder="0" class="vine animated"></iframe><script src="https://platform.vine.co/static/scripts/embed.js"></script>',
   restrict: 'AE',
     scope: {
       title: '=',
@@ -23,6 +25,7 @@ return {
         var targetElement = element.find('.vine');
 
         targetElement.css('border-color', colorChange);
+        targetElement.addClass("slideInDown");
 
         //make header change colors
         // var intervalID = window.setInterval(function() {
