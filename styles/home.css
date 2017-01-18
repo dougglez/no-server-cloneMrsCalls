@@ -19,6 +19,10 @@ body {
   position: relative;
 }
 
+.photoContainer {
+  display: flex;
+  justify-content: center;
+}
 
 .top-border {
   height: 45px;
