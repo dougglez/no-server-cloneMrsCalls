@@ -2,13 +2,6 @@
 
 section div {
   height: 450px;
-
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-  clear: both;
 }
 
 .home-head-one {
@@ -16,7 +9,7 @@ body {
 }
 
 .home-wrapper {
-  position: relative;
+  /*position: relative;*/
 }
 
 .photoContainer {
@@ -32,47 +25,27 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  align-content: center;
 }
 
 
 
 .featured-products {
   display: flex;
-  position: relative;
-  margin: auto;
-
+  justify-content: space-around;
+  align-items: center;
 }
 
-.column1 {
-  position: absolute;
-  padding-left: 5%;
-  top: -15%;
-  display: inline-block;
-}
-.column2 {
-  position: absolute;
-  display: inline-block;
-  padding-left: 45%;
-  top: -15%;
-}
-.column3 {
-  position: absolute;
-  display: inline-block;
-  padding-left: 80%;
-  top: -15%;
-}
 
 .featProdPic {
   -ms-transform: scale(.5,.5); /* IE 9 */
   -webkit-transform: scale(.5,.5); /* Safari */
   transform: scale(.5,.5);
-
 }
 
 .featured-products-border{
-  marign-top: .3em;
-  height: 2em;
+  margin-top: 1vh;
+  margin-bottom: 5vh;
+  height: 8vh;
   background-color: #108d95;
   font-size: 40px;
   text-align: center;
@@ -235,61 +208,49 @@ h2 {
   right: 1.3em;
 }
 
-
+.quality-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .top-border-quality-guarantee {
-  display: inline-block;
-  position: absolute;
-  margin: auto;
-  left: 18vw;
-
-
+  display: flex;
+  justify-content: center;
 }
 
 .quality-guarantee {
   display: flex;
-  /*justify-content: space-between;*/
   align-items: center;
-  flex-direction: row;
   height: 250px;
-  position: relative;
 }
 
 .quality-statement {
   display: flex;
-  flex-wrap: wrap;
+  /*flex-wrap: wrap;*/
   flex-direction: column;
   width: 25rem;
-  position: absolute;
-  top: .5em;
-  left: 22em;
+  padding-top: 22vh;
+  padding-right: 15vh;
   font-size: 18px;
   line-height: 150%;
 }
 
 .quality-statement h3 {
   font-size: 26px;
-  padding-bottom: .5em;
   color: #108d95;
-
-
 }
 
 .quality-badge {
-  position: absolute;
-  right: 26em;
-  top: -20%;
+  padding-top: 8vh;
 }
-
-
 
 .reviews {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-
-
 }
 
 .review {
